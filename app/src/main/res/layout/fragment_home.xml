@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="300dp"
+            android:alpha="0"
+
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="190dp"/>
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOGA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215dp"
+            android:textSize="30dp"
+
+            />
+
+
+
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_below="@id/btn1"
+            android:layout_width="300dp"
+            android:alpha="0"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"/>
+
+        <TextView
+            android:layout_below="@id/txt1"
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUSIC"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:textSize="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_below="@id/btn2"
+
+            android:layout_width="300dp"
+            android:alpha="0"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"/>
+        <TextView
+            android:layout_below="@id/txt2"
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRACKER"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:textSize="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_below="@+id/btn3"
+            android:layout_width="300dp"
+            android:alpha="0"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_below="@id/txt3"
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Your Heart"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="65dp"
+            android:textSize="30dp"
+            />
+    </RelativeLayout>
+</FrameLayout>

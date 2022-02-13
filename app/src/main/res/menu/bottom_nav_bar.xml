@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/Yoga"
+        android:title="Yoga"
+        android:icon="@drawable/yoga"/>
+    <item
+        android:id="@+id/Music"
+        android:title="Music"
+        android:icon="@drawable/music"/>
+    <item
+        android:id="@+id/Tracker"
+        android:title="Tracker"
+        android:icon="@drawable/tracker"/>
+    <item
+        android:id="@+id/Heart"
+        android:title="OpenYourHeart"
+        android:icon="@drawable/openheart"/>
+
+</menu>
+
+
+
+
+
